@@ -1,0 +1,10 @@
+@import './styles/colors.scss';
+
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100svh;
+  background-color: $background-color;
+  color: $primary-color;
+}

@@ -1,0 +1,37 @@
+@import 'styles/colors.scss';
+
+$content-padding: 35px;
+
+.customized-rectangle {
+  display: flex;
+  background: none;
+  align-items: center;
+  border: 6px $primary-color solid;
+  &.down-right {
+    border-top: 0;
+    border-left: 0;
+    border-radius: 0 0 100px 0;
+  }
+  &.down-right.with-content {
+    padding-right: calc($content-padding * 2);
+  }
+  &.top-left {
+    border-bottom: 0;
+    border-right: 0;
+    border-radius: 100px 0 0 0;
+  }
+  &.top-left.with-content {
+    padding-left: calc($content-padding * 2);
+  }
+  &.all {
+    border-radius: 100px;
+  }
+  &.fill {
+    background-color: $primary-color;
+  }
+  &.with-content {
+    display: flex;
+    gap: 30px;
+    padding: $content-padding;
+  }
+}

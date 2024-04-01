@@ -1,0 +1,48 @@
+@import 'styles/colors.scss';
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  padding-right: 50px;
+  color: $secondary-color;
+  gap: 50px;
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    .header {
+      z-index: 10;
+      font-size: calc(100vw / 40);
+      padding: 0;
+      margin: 0;
+      line-height: calc(100vw / 40);
+      .primary {
+        font-weight: 600;
+        letter-spacing: calc(100vw / 64);
+        margin-right: calc(100vw / -130);
+      }
+      .secondary {
+        font-weight: 200;
+        letter-spacing: calc(100vw / 105);
+      }
+    }
+    .description {
+      text-align: justify;
+      font-weight: 300;
+      line-height: 35px;
+      font-size: 17px;
+      padding: 0 calc(100vw / 80) 0 calc(100vw / 160);
+
+      width: calc(100vw / 4.5);
+    }
+  }
+  .buttons {
+    display: flex;
+    color: $primary-color;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+}

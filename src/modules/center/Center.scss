@@ -1,0 +1,25 @@
+.center-wrapper {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+  .ring,
+  .center-planet {
+    position: absolute;
+    --tw-ring-shadow: none;
+    transform: translateY(50px) scale(0.9);
+  }
+  .ring {
+    &.middle {
+      transform: translateY(50px) scale(0.9) rotate(0deg);
+    }
+  }
+  img {
+    transform: translate(calc(-50px), calc(100vh - 715px)) scale(0.9);
+    z-index: 2;
+  }
+}

@@ -1,0 +1,25 @@
+@import 'styles/colors.scss';
+
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  padding-left: 50px;
+  width: 50%;
+  color: $secondary-color;
+  .header {
+    font-size: calc(100vw / 22);
+    padding: 0;
+    margin: 0;
+    line-height: calc(100vw / 20);
+    &.primary {
+      font-weight: 600;
+      letter-spacing: calc(100vw / 20);
+      margin-right: calc(100vw / -40);
+    }
+    &.secondary {
+      font-weight: 200;
+      letter-spacing: calc(100vw / 40);
+    }
+  }
+}

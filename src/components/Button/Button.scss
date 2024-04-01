@@ -1,0 +1,34 @@
+@import 'styles/colors.scss';
+
+$button-padding-y: 13px;
+$button-padding-x: 26px;
+
+.button {
+  display: flex;
+  padding: $button-padding-y $button-padding-x;
+  font-size: 17px;
+  font-weight: 300;
+  transition: 0.3s;
+
+  &.highlighted,
+  &.primary {
+    font-weight: 500;
+    background-color: $primary-color;
+  }
+
+  &.highlighted {
+    color: $background-color;
+    margin: $button-padding-x;
+  }
+  &.primary {
+    color: $secondary-color;
+  }
+
+  &.primary:hover,
+  &.highlighted:hover {
+    background-color: rgba($primary-color, 0.9);
+  }
+  &.default:hover {
+    background-color: rgba($primary-color, 0.1);
+  }
+}
