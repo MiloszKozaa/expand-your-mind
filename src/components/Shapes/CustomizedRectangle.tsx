@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import React, { HTMLAttributes, ReactNode } from 'react';
 import './CustomizedRectangle.scss';
 
 interface ICustomizedRectangleProps {
