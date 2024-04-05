@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/expand-your-mind/static/css/main.8d18d4d3.css",
-    "main.js": "/expand-your-mind/static/js/main.a4e4ed08.js",
+    "main.css": "/expand-your-mind/static/css/main.593e1aca.css",
+    "main.js": "/expand-your-mind/static/js/main.d2327b64.js",
     "static/js/453.e7d56b31.chunk.js": "/expand-your-mind/static/js/453.e7d56b31.chunk.js",
     "static/media/small-dots-shape.svg": "/expand-your-mind/static/media/small-dots-shape.c89b562a3400d5ee7b6a2acc9c3d852a.svg",
     "static/media/large-dots-shape.svg": "/expand-your-mind/static/media/large-dots-shape.2b018c9975a18f69819bb621b50e728d.svg",
@@ -14,12 +14,12 @@
     "static/media/ring-small.svg": "/expand-your-mind/static/media/ring-small.6316d3319f7cca979426f02249790166.svg",
     "static/media/center.svg": "/expand-your-mind/static/media/center.a9d00d378ed392b7dfcd907c32138fbb.svg",
     "static/media/circle.svg": "/expand-your-mind/static/media/circle.e1c936875e9a7d27e737545819cb0f62.svg",
-    "main.8d18d4d3.css.map": "/expand-your-mind/static/css/main.8d18d4d3.css.map",
-    "main.a4e4ed08.js.map": "/expand-your-mind/static/js/main.a4e4ed08.js.map",
+    "main.593e1aca.css.map": "/expand-your-mind/static/css/main.593e1aca.css.map",
+    "main.d2327b64.js.map": "/expand-your-mind/static/js/main.d2327b64.js.map",
     "453.e7d56b31.chunk.js.map": "/expand-your-mind/static/js/453.e7d56b31.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d18d4d3.css",
-    "static/js/main.a4e4ed08.js"
+    "static/css/main.593e1aca.css",
+    "static/js/main.d2327b64.js"
   ]
 }
